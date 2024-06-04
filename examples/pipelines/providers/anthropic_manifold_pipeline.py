@@ -20,7 +20,7 @@ import requests
 
 class Pipeline:
     class Valves(BaseModel):
-        ANTHROPIC_API_KEY: str = ""
+        ANTHROPIC_API_KEY: str = "your-api-key"
 
     def __init__(self):
         self.type = "manifold"
